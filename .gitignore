@@ -7,7 +7,8 @@ kafka.iml
 .gitattributes
 # Log file
 *.log
-
+/target
+target/
 # BlueJ files
 *.ctxt
 

@@ -1,8 +1,8 @@
-package com.chen;
+package com.xwb;
 
-import com.chen.common.util.ToolsUtil;
-import com.chen.common.message.PayMessage;
-import com.chen.producer.MessageProducer;
+import com.xwb.common.util.ToolsUtil;
+import com.xwb.common.message.PayMessage;
+import com.xwb.producer.MessageProducer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

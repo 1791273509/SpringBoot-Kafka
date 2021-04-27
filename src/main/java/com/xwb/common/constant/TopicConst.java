@@ -1,4 +1,4 @@
-package com.chen.common.constant;
+package com.xwb.common.constant;
 
 /**
  * 类的功能描述：

@@ -1,4 +1,4 @@
-package com.chen.common.util;
+package com.xwb.common.util;
 
 import java.util.Random;
 import java.util.UUID;

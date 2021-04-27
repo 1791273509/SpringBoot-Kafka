@@ -1,4 +1,4 @@
-package com.chen.common.message;
+package com.xwb.common.message;
 
 import lombok.Getter;
 import lombok.Setter;

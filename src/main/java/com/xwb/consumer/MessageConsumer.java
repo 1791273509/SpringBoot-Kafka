@@ -1,7 +1,7 @@
-package com.chen.consumer;
+package com.xwb.consumer;
 
-import com.chen.common.constant.TopicConst;
-import com.chen.common.message.PayMessage;
+import com.xwb.common.constant.TopicConst;
+import com.xwb.common.message.PayMessage;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.slf4j.Logger;

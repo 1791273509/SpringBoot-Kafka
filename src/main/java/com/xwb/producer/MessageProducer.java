@@ -1,7 +1,7 @@
-package com.chen.producer;
+package com.xwb.producer;
 
-import com.chen.common.constant.TopicConst;
-import com.chen.common.message.PayMessage;
+import com.xwb.common.constant.TopicConst;
+import com.xwb.common.message.PayMessage;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.slf4j.Logger;
@@ -26,7 +26,7 @@ public class MessageProducer {
     private Gson gson = new GsonBuilder().create();
 
     public void send(PayMessage payMessage) {
-        String msg = gson.toJson(payMessage);
+         String msg = gson.toJson(payMessage);
         System.out.println(kafkaTemplate.send(TopicConst.PAY_TOPIC, msg));
         logger.info("MessageProducer: send: message is: [" + msg + "]");
 
