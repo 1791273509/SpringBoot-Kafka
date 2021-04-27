@@ -20,7 +20,7 @@ public class KafkaApplication {
             message.setSendTime(System.currentTimeMillis());
             producer.send(message);
             try {
-                Thread.sleep(2000);
+                Thread.sleep(10000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
